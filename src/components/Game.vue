@@ -1,7 +1,7 @@
 <script setup>
   import { ref, watch } from "vue"
-  import Tile from "./Tile.vue";
-import ResultBoard from "./ResultBoard.vue";
+  import Tile from "./Tile.vue"
+  import ResultBoard from "./ResultBoard.vue"
 
   const startingTiles = Array.from(Array(9).keys())
     .map(tile => {
