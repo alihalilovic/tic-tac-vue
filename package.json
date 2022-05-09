@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "host": "vite --host"
+    "host": "vite --host",
+    "serve": "serve -s dest"
   },
   "dependencies": {
     "vue": "^3.2.25"
